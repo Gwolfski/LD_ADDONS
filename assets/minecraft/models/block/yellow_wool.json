@@ -1,0 +1,159 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "0": "blocks/y_wool",
+        "1": "blocks/y_wool_tb",
+		"particle": "blocks/y_wool"
+    },
+	"display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 0],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 225, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cabin",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 16.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Door_South",
+            "from": [ 1.0, 1.0, 16.0 ], 
+            "to": [ 15.0, 15.0, 16.5 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 14.5, 1.0, 15.0, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 1.0, 1.5, 15.0 ] },
+                "up": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 1.5 ] },
+                "down": { "texture": "#0", "uv": [ 1.0, 15.0, 15.0, 14.5 ] }
+            }
+        },
+        {
+            "name": "Handle_South",
+            "from": [ 9.0, 4.5, 16.5 ], 
+            "to": [ 10.5, 7.5, 17.5 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 11.5 ] },
+                "east": { "texture": "#0", "uv": [ 9.5, 8.5, 10.5, 11.5 ], "rotation": 180 },
+                "south": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 11.5 ] },
+                "west": { "texture": "#0", "uv": [ 9.0, 8.5, 10.0, 11.5 ], "rotation": 180 },
+                "up": { "texture": "#0", "uv": [ 9.0, 10.5, 10.5, 11.5 ] },
+                "down": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Door_North",
+            "from": [ 1.0, 1.0, -0.5 ], 
+            "to": [ 15.0, 15.0, 0.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 1.0, 1.0, 1.5, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 14.5, 1.0, 15.0, 15.0 ] },
+                "up": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 1.5 ], "rotation": 180 },
+                "down": { "texture": "#0", "uv": [ 1.0, 15.0, 15.0, 14.5 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Handle_North",
+            "from": [ 5.5, 4.5, -1.5 ], 
+            "to": [ 7.0, 7.5, -0.5 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 11.5 ] },
+                "east": { "texture": "#0", "uv": [ 9.0, 8.5, 10.0, 11.5 ], "rotation": 180 },
+                "south": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 11.5 ] },
+                "west": { "texture": "#0", "uv": [ 9.5, 8.5, 10.5, 11.5 ], "rotation": 180 },
+                "up": { "texture": "#0", "uv": [ 9.0, 10.5, 10.5, 11.5 ], "rotation": 180 },
+                "down": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 9.5 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Door_East",
+            "from": [ -0.5, 1.0, 1.0 ], 
+            "to": [ 0.0, 15.0, 15.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 1.0, 1.0, 1.5, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 14.5, 1.0, 15.0, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "up": { "texture": "#0", "uv": [ 15.0, 1.0, 1.0, 1.5 ], "rotation": 270 },
+                "down": { "texture": "#0", "uv": [ 1.0, 15.0, 15.0, 14.5 ], "rotation": 270 }
+            }
+        },
+        {
+            "name": "Hande_East",
+            "from": [ -1.5, 4.5, 9.0 ], 
+            "to": [ -0.5, 7.5, 10.5 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 9.0, 8.5, 10.0, 11.5 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 11.5 ] },
+                "south": { "texture": "#0", "uv": [ 9.5, 8.5, 10.5, 11.5 ], "rotation": 180 },
+                "west": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 11.5 ] },
+                "up": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 9.5 ], "rotation": 270 },
+                "down": { "texture": "#0", "uv": [ 9.0, 10.5, 10.5, 11.5 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Door_West",
+            "from": [ 16.0, 1.0, 1.0 ], 
+            "to": [ 16.5, 15.0, 15.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 14.5, 1.0, 15.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 1.0, 1.0, 1.5, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "up": { "texture": "#0", "uv": [ 15.0, 1.0, 1.0, 1.5 ], "rotation": 90 },
+                "down": { "texture": "#0", "uv": [ 1.0, 15.0, 15.0, 14.5 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Handle_West",
+            "from": [ 16.5, 4.5, 5.5 ], 
+            "to": [ 17.5, 7.5, 7.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 9.5, 8.5, 10.5, 11.5 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 11.5 ] },
+                "south": { "texture": "#0", "uv": [ 9.0, 8.5, 10.0, 11.5 ], "rotation": 180 },
+                "west": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 11.5 ] },
+                "up": { "texture": "#0", "uv": [ 9.0, 8.5, 10.5, 9.5 ], "rotation": 90 },
+                "down": { "texture": "#0", "uv": [ 9.0, 10.5, 10.5, 11.5 ], "rotation": 270 }
+            }
+        }
+    ]
+}
